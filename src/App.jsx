@@ -22,7 +22,7 @@ const App = () => {
                 )
               }
             >
-              <img src="/maxi-cie.gif" alt="MAXI" />
+              <img src="./public/maxi-cie.gif" alt="MAXI" />
             </a>
           </p>
         </div>
@@ -34,7 +34,7 @@ const App = () => {
                 handleClick(event, "https://www.circulaires.com/provigo/")
               }
             >
-              <img src="/provigo.gif" alt="PROVIGO" />
+              <img src="./public/provigo.gif" alt="PROVIGO" />
             </a>
           </p>
         </div>
@@ -49,7 +49,7 @@ const App = () => {
                 )
               }
             >
-              <img src="iga.gif" alt="IGA" />
+              <img src="./public/iga.gif" alt="IGA" />
             </a>
           </p>
         </div>
@@ -61,7 +61,7 @@ const App = () => {
                 handleClick(event, "https://www.circulaires.com/walmart/")
               }
             >
-              <img src="/walmart.gif" alt="WALMART" />
+              <img src="./public/walmart.gif" alt="WALMART" />
             </a>
           </p>
         </div>
@@ -73,7 +73,7 @@ const App = () => {
                 handleClick(event, "https://www.circulaires.com/marche-adonis/")
               }
             >
-              <img src="/marche-adonis.gif" alt="ADONIS" />
+              <img src="./public/marche-adonis.gif" alt="ADONIS" />
             </a>
           </p>
         </div>
@@ -88,7 +88,7 @@ const App = () => {
                 )
               }
             >
-              <img src="/jean-coutu.gif" alt="JEAN-COUTU" />
+              <img src="./public/jean-coutu.gif" alt="JEAN-COUTU" />
             </a>
           </p>
         </div>
@@ -100,7 +100,7 @@ const App = () => {
                 handleClick(event, "https://www.circulaires.com/pharmaprix/")
               }
             >
-              <img src="/pharmaprix.gif" alt="PHARMAPRIX" />
+              <img src="./public/pharmaprix.gif" alt="PHARMAPRIX" />
             </a>
           </p>
         </div>
@@ -112,7 +112,7 @@ const App = () => {
                 handleClick(event, "https://www.superc.ca/circulaire")
               }
             >
-              <img src="/superc.gif" alt="SUPER C" />
+              <img src="./public/superc.gif" alt="SUPER C" />
             </a>
           </p>
         </div>
