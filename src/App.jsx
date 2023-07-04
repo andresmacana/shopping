@@ -22,7 +22,7 @@ const App = () => {
                 )
               }
             >
-              <img src="/maxi-cie.gif" alt="MAXI" />
+              <img src={process.env.PUBLIC_URL + "/maxi-cie.gif"} alt="MAXI" />
             </a>
           </p>
         </div>
@@ -34,7 +34,10 @@ const App = () => {
                 handleClick(event, "https://www.circulaires.com/provigo/")
               }
             >
-              <img src="/provigo.gif" alt="PROVIGO" />
+              <img
+                src={process.env.PUBLIC_URL + "/provigo.gif"}
+                alt="PROVIGO"
+              />
             </a>
           </p>
         </div>
@@ -49,7 +52,7 @@ const App = () => {
                 )
               }
             >
-              <img src="/iga.gif" alt="IGA" />
+              <img src={process.env.PUBLIC_URL + "/iga.gif"} alt="IGA" />
             </a>
           </p>
         </div>
@@ -61,7 +64,10 @@ const App = () => {
                 handleClick(event, "https://www.circulaires.com/walmart/")
               }
             >
-              <img src="/walmart.gif" alt="WALMART" />
+              <img
+                src={process.env.PUBLIC_URL + "/walmart.gif"}
+                alt="WALMART"
+              />
             </a>
           </p>
         </div>
@@ -73,7 +79,10 @@ const App = () => {
                 handleClick(event, "https://www.circulaires.com/marche-adonis/")
               }
             >
-              <img src="/marche-adonis.gif" alt="ADONIS" />
+              <img
+                src={process.env.PUBLIC_URL + "/marche-adonis.gif"}
+                alt="ADONIS"
+              />
             </a>
           </p>
         </div>
@@ -88,7 +97,10 @@ const App = () => {
                 )
               }
             >
-              <img src="/jean-coutu.gif" alt="JEAN-COUTU" />
+              <img
+                src={process.env.PUBLIC_URL + "/jean-coutu.gif"}
+                alt="JEAN-COUTU"
+              />
             </a>
           </p>
         </div>
@@ -100,7 +112,10 @@ const App = () => {
                 handleClick(event, "https://www.circulaires.com/pharmaprix/")
               }
             >
-              <img src="/pharmaprix.gif" alt="PHARMAPRIX" />
+              <img
+                src={process.env.PUBLIC_URL + "/pharmaprix.gif"}
+                alt="PHARMAPRIX"
+              />
             </a>
           </p>
         </div>
@@ -112,7 +127,7 @@ const App = () => {
                 handleClick(event, "https://www.superc.ca/circulaire")
               }
             >
-              <img src="/superc.gif" alt="SUPER C" />
+              <img src={process.env.PUBLIC_URL + "/superc.gif"} alt="SUPER C" />
             </a>
           </p>
         </div>
